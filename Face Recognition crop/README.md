@@ -20,7 +20,7 @@
   <img src="https://user-images.githubusercontent.com/22610163/31285196-6670180a-aac3-11e7-95dc-f8d65d02195a.png">
 </p>
 
-## INSTALLATION
+## INSTALLATIONS REQUIRED AFTER CLONING THE REPOSITORY
 
 **1.) Python and pip**
 
