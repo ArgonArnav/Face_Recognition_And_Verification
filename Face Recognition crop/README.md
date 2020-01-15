@@ -81,6 +81,6 @@ In this project, [Adam Geitgey](https://github.com/ageitgey/face_recognition)'s 
 
 ## USAGE
 
-Just run *face_recognizer_webcam.py*
+* Just run face_recognizer_webcam.py for real-time facial recognition and if you wish to stop the running script, press Ctrl+z and it will stop the webcam from running.
 
-The default file paths are specified already, change them with yours. (edit the line 17, line 20, line 80, line 89 in [face_recognizer.py](https://github.com/ahmetozlu/face_database_creator/blob/master/face_recognizer.py))
+* For videos run face_recognizer_video1.py or face_recognizer_video2.py and you can also download some videos of your own to test them and make some changes in the code. 
