@@ -74,10 +74,8 @@ Years ago, we had to compile dlib manually from source (similar to how we instal
     $ pip install dlib
     
 **3.) face_recognition 1.2.1**
-
-In this project, [Adam Geitgey](https://github.com/ageitgey/face_recognition)'s face recognition system (*thanks a lot to Adam*) was used for face recognition and it can be installed by pypi using pip3 (or pip2 for Python 2):
     
-    pip3 install face_recognition
+    pip install face_recognition
 
 ## USAGE
 
