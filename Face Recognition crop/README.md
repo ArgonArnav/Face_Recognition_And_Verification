@@ -1,7 +1,5 @@
 # Recognize, Crop and Save Faces as Images From Video
 
-For technical details check the related [medium post](https://medium.com/@ahmetozlu93/creating-multi-view-face-recognition-detection-database-for-deep-learning-in-programmatic-way-14bbdd4b00a9)!
-
 ## QUICK DEMO
 
 - Faces are Tracking, Cropping and Saving as Images from Video
@@ -21,16 +19,6 @@ For technical details check the related [medium post](https://medium.com/@ahmeto
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22610163/31285196-6670180a-aac3-11e7-95dc-f8d65d02195a.png">
 </p>
-
-If you want to investigate some aspect of facial recognition or facial detection. One thing you are going to want is a variety of faces that you can use for your system. You can create your own face detection/recognition database by this program. [face_recognizer.py](https://github.com/ahmetozlu/face_database_creator/blob/master/face_recognizer.py) recognizes the faces from video, crop and save them as an image under appropriate path hierarchy.
-
-Once we have acquired the face data, we’ll need to read it in our program. In the demo applications I have decided to read the images from a very simple CSV file. Why? Because it’s the simplest platform-independent approach I can think of. However, if you know a simpler solution please ping me about it. Basically all the CSV file needs to contain are lines composed of a filename followed by a ; followed by the label (as integer number), making up a line like this:
-
-    /path/to/image.ext;0
-
-You don’t really want to create the CSV file by hand. I have prepared you a little Python script [create_csv.py](https://github.com/ahmetozlu/face_database_creator/blob/master/create_csv.py) that automatically creates you a CSV file.
-    
-face_recognizer.py calls create_csv.py and it can save the output as a csv file so you will have your own face detection/recognition dataset.
 
 ## INSTALLATION
 
@@ -93,24 +81,6 @@ In this project, [Adam Geitgey](https://github.com/ageitgey/face_recognition)'s 
 
 ## USAGE
 
-Just run *face_recognizer.py*
+Just run *face_recognizer_webcam.py*
 
 The default file paths are specified already, change them with yours. (edit the line 17, line 20, line 80, line 89 in [face_recognizer.py](https://github.com/ahmetozlu/face_database_creator/blob/master/face_recognizer.py))
-
-- The sample database and dataset can be found at [here](https://github.com/ahmetozlu/face_database_creator/tree/master/sample)
-
-## CITATION
-If you use this code for your publications, please cite it as:
-
-    @ONLINE{frc,
-        author = "Ahmet Özlü",
-        title  = "Face Database Creator",
-        year   = "2017",
-        url    = "https://github.com/ahmetozlu/face_recognition_crop"
-    }
-
-## AUTHOR
-Ahmet Özlü
-
-## LICENSE
-This system is available under the MIT license. See the LICENSE file for more info.
