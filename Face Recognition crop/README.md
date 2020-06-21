@@ -5,7 +5,7 @@
 - Faces are Tracking, Cropping and Saving as Images from Video
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/22610163/30784383-d75e112c-a15c-11e7-88e9-ec9ded45f57b.gif">
+  <img src="https://https://imgur.com/d1iORPw">
 </p>
 
 - Images are Saving from Video With Appropriate Path Hierarchy
